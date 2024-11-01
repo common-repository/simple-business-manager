@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.4em;
+	word-spacing:1px;
+	letter-spacing:0.2px;
+	font: 16px;
+	font-family:"Times New Roman", Times, serif;
+	color: #000;
+	background: #FFF;
+}
+#adminmenu, 
+#customer_data,
+#wphead, 
+#footer, 
+#screen-meta, 
+h2, 
+#new-footer, 
+#type_of_invoice, 
+#help, 
+.success, 
+.update-nag, 
+input[type=button], 
+input[type=submit] {
+	display: none;
+	height: 0px;
+	width: 0px;
+	
+}
+#wpwrap, #wpbody-content {
+	padding: 0px;
+	margin: 0px;
+}
+.wrap {
+	padding: 0px;
+	margin: 0px;
+}
+#wpbody {
+	margin-left: 0px;
+}
+#wpbody-content {
+	padding: 0px;
+	margin: 0px;
+}
+#editInvoiceForm table {
+	/*width: 900px;*/
+}
+#wpcontent {
+	
+	/*width: 900px;*/
+	/*overflow: hidden;*/
+}
+#total_amount, #deposit_number, #deposit_text {
+	background: none;
+}
+
+/* Invoices */
+.line_item_table {
+	border: 1px solid #000;
+	border-spacing: 4px;
+	margin-bottom: 100px;
+}
+td.sbm_invoice_image {
+	border: none;	
+}
+
+/* End Invoices */
+

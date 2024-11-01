@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+/* Generic things */
+.float-left {
+	float: left;
+}
+.clear {
+	clear: both;  
+}
+
+/* format the public sign up form */
+form#public_customer_signup div {
+	padding-top: 5px;
+}
+form#public_customer_signup div.description {
+	width: 130px;
+	float: left;
+	text-align: right;
+	padding-right: 6px;
+	float: left;
+}
+
+form#public_customer_signup h4 {
+	text-align: center;
+}
+
+/* Error Handling for validation */
+label.error {
+	color: #ff0000;
+	font-weight: bold;
+	
+}
+div.error {
+	background-color: #FFEBE8;
+    border:1px solid #FF0000;
+	padding: 10px;
+}
+div.error div.errorDiv {
+	margin-left: 20px;
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+
